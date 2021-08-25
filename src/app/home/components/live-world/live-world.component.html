@@ -1,0 +1,11 @@
+<div class="live pt-30 pb-30">
+  <h2 class="title-h2">Vive en cualquier lugar del mundo</h2>
+  <ul class="live__grid">
+    <li class="live__item" *ngFor="let live of liveList">
+      <picture>
+        <img [src]="live.img" [alt]="live.title" />
+      </picture>
+      <span>{{ live.title }}</span>
+    </li>
+  </ul>
+</div>
