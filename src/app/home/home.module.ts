@@ -4,6 +4,7 @@ import { HomeComponent } from './home.component';
 import { Routes, RouterModule } from '@angular/router';
 import { ExploreComponent } from './components/explore/explore.component';
 import { LiveWorldComponent } from './components/live-world/live-world.component';
+import { HostComponent } from './components/host/host.component';
 
 const routes: Routes = [
   {
@@ -13,7 +14,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [HomeComponent, ExploreComponent, LiveWorldComponent],
+  declarations: [HomeComponent, ExploreComponent, LiveWorldComponent, HostComponent],
   imports: [CommonModule, RouterModule.forChild(routes)],
 })
 export class HomeModule {}
