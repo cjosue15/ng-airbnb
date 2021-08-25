@@ -16,6 +16,14 @@ p {
   margin: 0;
 }
 
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
 .title-h2 {
   margin-bottom: 20px;
   font-size: 32px;
@@ -24,7 +32,7 @@ p {
 }
 
 .container {
-  max-width: 1760px;
+  max-width: 1600px;
   // width: 100%;
   padding: 0 80px;
   margin: 0 auto;
