@@ -1,0 +1,14 @@
+<div class="explore">
+  <h2 class="title-h2">Explora cerca de ti</h2>
+  <div class="explore__grid">
+    <div class="explore__item" *ngFor="let explore of exploreList">
+      <picture>
+        <img [src]="explore.img" [alt]="explore.title" width="64" height="64" />
+      </picture>
+      <div class="explore__body">
+        <b>{{ explore.title }}</b>
+        <span>{{ explore.subtitle }}</span>
+      </div>
+    </div>
+  </div>
+</div>
