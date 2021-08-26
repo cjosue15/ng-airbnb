@@ -1,0 +1,10 @@
+<div class="activities pt-30 pb-30">
+  <h2 class="title-h2">Descubre actividades</h2>
+  <ul class="activities__grid">
+    <li class="activities__item" *ngFor="let item of activities">
+      <picture><img [src]="item.image" [alt]="item.title" /></picture>
+      <h5>{{ item.title }}</h5>
+      <p>{{ item.subtitle }}</p>
+    </li>
+  </ul>
+</div>
