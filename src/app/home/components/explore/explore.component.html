@@ -3,7 +3,12 @@
   <div class="explore__grid">
     <div class="explore__item" *ngFor="let explore of exploreList">
       <picture>
-        <img [src]="explore.img" [alt]="explore.title" width="64" height="64" />
+        <img
+          [src]="explore.image"
+          [alt]="explore.title"
+          width="64"
+          height="64"
+        />
       </picture>
       <div class="explore__body">
         <b>{{ explore.title }}</b>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Explore } from '../../models/explore-model';
-import { exploreData } from '../../data/explore';
+import { Item } from '../../models/carrusel.model';
+import { exploreData } from '../../data/data-home';
 
 @Component({
   selector: 'app-explore',
@@ -8,7 +8,7 @@ import { exploreData } from '../../data/explore';
   styleUrls: ['./explore.component.scss'],
 })
 export class ExploreComponent implements OnInit {
-  exploreList: Explore[] = exploreData;
+  exploreList: Item[] = exploreData;
 
   constructor() {}
 
